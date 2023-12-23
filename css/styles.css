@@ -449,3 +449,53 @@ background-color: #31D0AA;
   color: #ffffff;
   margin-bottom: 16px;
 }
+
+.footer-bottom {
+  margin-left: auto;
+  align-items: center;
+}
+
+.subscribe-caption {
+  color: #FFF;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.02px;
+}
+
+.subscribe-form {
+  display: flex;
+  gap: 24px;
+  align-items: center;
+  margin-top: 16px;
+}
+
+.subscribe-form-field {}
+
+.subscribe-form-input {
+    outline: transparent;
+    width: 264px;
+    height: 40px;
+    flex-shrink: 0;
+    border-radius: 4px;
+    border: 1px solid var(--WHITE, #FFF);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+}
+
+.subscribe-form-btn {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  color: #FFF;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.04em;
+  padding: 8px 24px;
+  border-radius: 4px;
+  background-color: #4D5AE5;
+}
+
+.subscribe-icon {}
