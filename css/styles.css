@@ -601,6 +601,14 @@ transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
   margin-bottom: 4px;
 }
 
+.form-label-checkbox {
+  color: #8E8F99;
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.04em;
+  margin-bottom: 4px;
+}
+
 .form-field {
   position: relative;
 }
@@ -700,7 +708,7 @@ transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
   text-decoration-line: underline;
 }
 
-.checkbox:checked + .form-label > .form-agreement-checkbox {
+.checkbox:checked + .form-label-chaeckbox > .form-agreement-checkbox {
   background-color: #404bbf;
   border-color: #404bbf;
   fill: #F4F4FD;
